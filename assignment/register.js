@@ -1,7 +1,7 @@
 const form = document.querySelector(".booth-form");
 
 form.addEventListener("submit", (event) => {
-  event.preventDefault;
+  event.preventDefault();
 
   const companyNameInput = document.getElementById("company-name");
   const companyNameError = document.getElementById("company-name-error");
