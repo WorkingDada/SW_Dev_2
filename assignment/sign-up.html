@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Ant Expo</title>
+  </head>
+  <body>
+    <header>
+      <div class="left-header">
+        <img src="./assets/ant.svg" alt="ant" />
+        <h2>Ant Expo</h2>
+      </div>
+    </header>
+
+    <div class="sign-up">
+      <div class="sign-up-left">
+        <div class="welcome-wrapper">
+          <h1>Welcome!</h1>
+          <a href="./index.html"><button class="home-btn">Home</button></a>
+        </div>
+      </div>
+      <div class="sign-up-right">
+        <div class="form-wrapper">
+          <h2>Join us now!</h2>
+          <form class="booth-form">
+            <div class="input-wrapper">
+              <label for="company-name">Company Name</label>
+              <input
+                type="text"
+                id="company-name"
+                placeholder="Enter Company Name"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="booth-size">Booth Size</label>
+              <select id="booth-size">
+                <option>10x10ft</option>
+                <option>10x15ft</option>
+              </select>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="table-slot">Table Slot Number</label>
+              <input
+                type="number"
+                id="table-slot"
+                placeholder="Table Slot Number"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" placeholder="Your Name" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="contact-phone">Phone Number</label>
+              <input
+                type="tel"
+                id="contact-phone"
+                placeholder="Your Phone Number"
+              />
+            </div>
+
+            <div class="checkbox-container">
+              <input type="checkbox" id="booth-table" />
+              <label for="booth-table">Include Booth Table?</label>
+            </div>
+
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

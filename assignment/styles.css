@@ -1,0 +1,196 @@
+:root {
+  --background-clr: #f5f5f5;
+  --primary-clr: #2c3e50;
+  --secondary-clr: #3498db;
+  --accent-clr: #e74c3c;
+  --accent-clr-darker: #ba4033;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--background-clr);
+  color: var(--primary-clr);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-clr);
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+}
+
+header img {
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-header {
+  display: flex;
+  gap: 15px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.hero-text p {
+  max-width: 600px;
+  align-self: center;
+}
+
+.welcome-text {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.sign-up-btn {
+  padding: 15px 50px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: var(--accent-clr);
+  color: white;
+  cursor: pointer;
+}
+
+.sign-up {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+.sign-up-left {
+  background-image: url(./assets/rainbow-vortex.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.sign-up-left h1 {
+  font-size: 3rem;
+}
+
+.welcome-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.sign-up-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booth-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Form Input Styles */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+select {
+  cursor: pointer;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--accent-clr);
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--accent-clr-darker);
+}
+
+.submit-button {
+  grid-column: 1 / -1;
+}
+
+.home-btn {
+  background-color: transparent;
+  border: 0.15rem solid white;
+  color: white;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
