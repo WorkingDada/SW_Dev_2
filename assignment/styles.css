@@ -189,8 +189,12 @@ button:hover {
   color: white;
 }
 
-.input-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.error {
+  color: var(--accent-clr);
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+input.error {
+  border-color: var(--accent-clr);
 }
